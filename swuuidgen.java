@@ -6,7 +6,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.UUID;
 import javax.swing.ImageIcon;
-
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -28,7 +27,6 @@ public class swuuidgen {
             public void actionPerformed(ActionEvent e) {
                 UUID uuid = UUID.randomUUID(); // Get the string representation of the UUID          
                 randomUUIDString = uuid.toString();
-
                 textField.setText(randomUUIDString); // Print the generated UUID string
             }
         });
